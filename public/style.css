@@ -1,0 +1,74 @@
+body{
+    margin-left:120px;
+       /* background-color: #25D366;  */
+       /* https://grabient.com/HQBgnAbANMAcCsAWGB2EAmKBaEwCMII2ueKKM6AzNDsImJrRAccJWHq3uubSJbBggIKIA?style=linearGradient&steps=2&angle=90 */
+
+background: linear-gradient(90deg, rgba(7, 174, 234, 1.000) 0.000%, rgba(43, 245, 152, 1.000) 100.000%);
+         
+
+
+
+}
+.chat{
+    /* background-color: #075E54; */
+      background-color: #25D366 !important;
+      /* background-color: whitesmoke; */
+       
+       color:whitesmoke;
+    padding:20px;
+    border-radius: 30px;
+    margin: 5px;
+    margin-top:1px ;
+    display:inline-block;
+    margin-left:8rem ;
+    
+
+}
+.message{
+ background-color:#1EBEA5 !important;   
+ color:whitesmoke;
+ padding:7px;
+ /* font-size:medium !important; */
+ width:300px;
+ border-radius: 20px;
+
+}
+.editBtn{
+        width:8rem !important;
+    height: 3rem !important;
+    border-radius: 20px;
+      background-color: #25D366;
+}
+.newBtn{
+        width:8rem !important;
+    height: 3rem !important;
+    border-radius: 20px;
+      background-color: #25D366 !important;
+      color: whitesmoke;
+       margin-left:4rem !important ;
+        margin-top:1.1rem !important ;
+}
+button {
+  all: unset; 
+  background-color:  #25D366; 
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+ border:1px solid black;
+  width:6rem !important;
+   height: 1.5rem !important;
+     border-radius: 20px !important;
+     margin-bottom:1.5rem !important ;
+     text-align: center !important;
+    
+
+}
+/* .mini-whatsapp{
+    margin-top:5rem  !important;
+    margin-right: ; */
+h2{
+  margin-top: 1rem !important;  
+  margin-left: 1.2rem;
+}
+/* .create{
+      /* all: unset;  */

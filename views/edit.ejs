@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/style.css">
+               <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Edit Message</title>
+</head>
+<body>
+    <!-- Edit form -->
+    <h2 style="margin-left: 2rem;">Edit your chat:<%=chat._id %></h2>
+    <p style="margin-left: 2rem;">This chat was sent from <b><%=chat.from %></b> to <b><%= chat.to %> </b></p>
+    <form method="POST" action="/chats/<%=chat._id %>?_method=PUT">
+        <textarea style="margin-left: 4rem;" name="message" rows="10" cols="40"><%=chat.message %></textarea><br>
+        <button style="margin-left: 1rem;margin-top: 1rem;    " >Edit</button>
+    </form>
+    <br>
+</body>
+</html>
