@@ -33,7 +33,7 @@ Mini-WhatsApp/ ├── models/ │   └── chat.js         # Mongoose sche
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/mini-whatsapp.git
+   git clone https://github.com/antima789779/Mini-WhatsApp-Chat-Management-App-using--MongoDB.git
    cd mongoExpressLst
 2. Install dependencies
 npm install
